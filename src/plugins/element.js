@@ -14,7 +14,10 @@ import {
   Card,
   Table,
   TableColumn,
-  Badge
+  Badge,
+  Dialog,
+  Timeline,
+  TimelineItem
 } from 'element-ui'
 
 Vue.use(Button)
@@ -32,3 +35,7 @@ Vue.use(Card)
 Vue.use(Table)
 Vue.use(TableColumn)
 Vue.use(Badge)
+Vue.use(Dialog)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
+
