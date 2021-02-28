@@ -113,7 +113,6 @@ export default {
   },
   methods: {
     goDetail (id) {
-      this.$router.push('/blogDetail')
       this.$router.push({ path: '/blogDetail', query: { id: id } })
     },
     writeBlog () {
@@ -128,6 +127,7 @@ export default {
   .mainBody {
     float: left;
     width: 45%;
+    min-width: 600px;
     margin-left: 15%;
     margin-right: 10px;
     .slideshow {
@@ -213,11 +213,15 @@ export default {
           }
         }
       }
+      .blogList:hover {
+        background-color: #eee;
+      }
     }
   }
   .globalSideBar {
     overflow: hidden;
     margin-right: 15%;
+    min-width: 250px;
     font-size: 14px;
     list-style: none;
     .globalBarBody {

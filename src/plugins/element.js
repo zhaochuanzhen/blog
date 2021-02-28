@@ -23,7 +23,8 @@ import {
   Divider,
   Upload,
   Breadcrumb,
-  BreadcrumbItem
+  BreadcrumbItem,
+  Message
 } from 'element-ui'
 
 Vue.use(Button)
@@ -50,3 +51,4 @@ Vue.use(Divider)
 Vue.use(Upload)
 Vue.use(Breadcrumb)
 Vue.use(BreadcrumbItem)
+Vue.use(Message)

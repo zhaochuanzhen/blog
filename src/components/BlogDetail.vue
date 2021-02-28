@@ -18,13 +18,12 @@ export default {
   },
   methods: {
     goBack () {
-      this.$router.push('/index')
+      this.$router.go(-1)
     }
   },
   created () {
-    console.log('id')
     const that = this
-    this.$http.get('blog/detail?id=1').then(function (data) {
+    this.$http.get('blog/detail?id=' + this.$route.query.id).then(function (data) {
       var result = data.data
       if (result.code === 1) {
         that.blog = result.data.content

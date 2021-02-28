@@ -46,8 +46,13 @@ export default {
   },
   methods: {
     addBlog () {
+      const that = this
       this.$http.post('/blog/add', this.blog).then(function (data) {
+        var result = data.data
         console.log(data)
+        if (result.code === 1) {
+          that.$router.push('/index')
+        }
       })
     }
   }
