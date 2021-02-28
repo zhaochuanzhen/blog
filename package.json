@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "axis": "^1.0.0",
     "core-js": "^3.6.5",
     "element-ui": "^2.4.5",
@@ -31,6 +32,7 @@
     "less": "^4.1.1",
     "neutrino-middleware-less-loader": "^6.0.3",
     "vue-cli-plugin-element": "^1.0.1",
+    "vue-quill-editor": "^3.0.6",
     "vue-template-compiler": "^2.6.11"
   }
 }

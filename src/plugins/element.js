@@ -17,7 +17,13 @@ import {
   Badge,
   Dialog,
   Timeline,
-  TimelineItem
+  TimelineItem,
+  Image,
+  PageHeader,
+  Divider,
+  Upload,
+  Breadcrumb,
+  BreadcrumbItem
 } from 'element-ui'
 
 Vue.use(Button)
@@ -38,4 +44,9 @@ Vue.use(Badge)
 Vue.use(Dialog)
 Vue.use(Timeline)
 Vue.use(TimelineItem)
-
+Vue.use(Image)
+Vue.use(PageHeader)
+Vue.use(Divider)
+Vue.use(Upload)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
